@@ -1,7 +1,8 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {Formulario} from './Fomulario';
 import {Tabla} from './Tabla'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import {Boton} from './boton';
 
 export function Aplicacion(){
     return(
@@ -11,6 +12,7 @@ export function Aplicacion(){
             <Tabla/>
             <Tabla/>
         
+            <Boton/>
         </React.Fragment>
     )
 }

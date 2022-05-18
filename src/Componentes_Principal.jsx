@@ -7,8 +7,8 @@ import {Boton} from './boton';
 export function Aplicacion(){
     return(
         <React.Fragment>
-            <Formulario/>
             <Tabla/>
+            <Formulario/>
             <Tabla/>
             <Tabla/>
         

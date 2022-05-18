@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+Taller React y algunas funciones. Erik Palacios, Danny Vasquez, Juan Camilo Ballesteros 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

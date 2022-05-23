@@ -13,7 +13,6 @@ export function Aplicacion(){
             <Formulario/>
             <Tabla/>
             <Tabla/>
-        
             <Boton/>
         </React.Fragment>
     )

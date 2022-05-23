@@ -2,33 +2,34 @@ import React from "react";
 
 export function Tabla() {
   return (
-    <div>
-      <table class="table table-hover table-dark">
+    <div class="container mx-auto my-4 border rounded-circle">
+      <table class="table table-hover table-info borde border border-info ">
         <thead>
           <tr>
             <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
             <th scope="col">Handle</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <td>Danny Javier</td>
+            <td>Vasquez C</td>
+            <td>@danny</td>
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <td>Juan Camilo</td>
+            <td>Ballesteros</td>
+            <td>@Balles</td>
           </tr>
           <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
+            <th scope="row">2</th>
+            <td>Erik</td>
+            <td>Palacio Castellanos</td>
+            <td>@Erik</td>
           </tr>
         </tbody>
       </table>

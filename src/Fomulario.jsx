@@ -3,7 +3,7 @@ import React from "react";
 export function Formulario(){
     return(
         <div>
-            <section class="container p-4 col-lg-4">
+            <section class="container p-4 col-lg-4 border rounded bg-light">
                 <form name="viewport" content="width=device-width col-lg-3 col-md-4">
                     <div class="mb-3" >
                         <label for="exampleInputEmail1" class="form-label">nombre</label>

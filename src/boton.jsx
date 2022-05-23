@@ -5,7 +5,7 @@ export function Boton(){
         alert("Botón de alerta");
     }
     return (
-        <center>
+        <center class="pb-4">
             <button type="button" class="btn btn-info" onClick = {()=>{alerta()}}>Botón Alerta</button>
         </center>       
     )

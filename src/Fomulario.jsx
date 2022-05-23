@@ -6,12 +6,12 @@ export function Formulario(){
             <section class="container p-4 col-lg-4 border rounded bg-light">
                 <form name="viewport" content="width=device-width col-lg-3 col-md-4">
                     <div class="mb-3" >
-                        <label for="exampleInputEmail1" class="form-label">nombre</label>
+                        <label for="exampleInputName" class="form-label">nombre</label>
                         <input type="text" class="form-control" aria-describedby="nameHelp"/>
                     </div>   
 
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Apellido</label>
+                        <label for="exampleInputApellido" class="form-label">Apellido</label>
                         <input type="text" class="form-control" aria-describedby="ApellidoHelp"/>
                     </div>   
 

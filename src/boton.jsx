@@ -5,8 +5,8 @@ export function Boton(){
         alert("Botón de alerta");
     }
     return (
-        <center>
-            <button type="button" class="btn btn-info" onClick = {()=>{alerta()}}>Final Enviar</button>
+        <center class="pb-4">
+            <button type="button" class="btn btn-info" onClick = {()=>{alerta()}}>Botón Alerta</button>
         </center>       
     )
 }
